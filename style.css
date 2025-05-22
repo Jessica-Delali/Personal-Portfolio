@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  /* background-color: #E4E4E3; */
+}
+.container1 {
+  position: relative;
+}
+nav {
+  position: absolute;
+  top: 2rem;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-around;
+  cursor: default;
+}
+
+.container1 span img {
+  height: 100%;
+  width: 100%;
+  scale: 5;
+}
+
+.nav-list :hover {
+  border-bottom: 2px solid purple;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  height: fit-content;
+}
+/* .about-me{
+  background: #b99fc4;
+
+background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+} */
+.about-me {
+  background: #e5e5e5;
+  background: linear-gradient(
+    90deg,
+    rgba(229, 229, 229, 1) 0%,
+    rgba(204, 193, 217, 1) 50%
+  );
+}
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+  padding: 0 200px;
+}
+#section-font {
+  font-family: "Pacifico", cursive;
+  font-size: 35px;
+  margin-left: 6rem;
+}
+/* /* #image { *
+  width: 50%;
+  padding: 2rem;
+  /* margin-top: -10rem; */
+/* background-position:50% 90%; */
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+.welcome h1 {
+  color: purple;
+  /* margin-bottom: 0.5rem; */
+  font-size: 50px;
+}
+#who-i-am {
+  width: 70%;
+}
+.about-me button {
+  width: 20%;
+  padding: 20px;
+  border-radius: 3rem;
+  background-color: gainsboro;
+  font-size: 14px;
+  transition: background-color 0.5s ease;
+}
+.about-me button:hover {
+  background-color: purple;
+  cursor: pointer;
+  color: white;
+}
+.projects {
+  margin-top: 4rem;
+  background-color: #e5e5e5;
+  padding-top: 2rem;
+}
+.sub-projects {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 4rem;
+}
+.project-mini {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-bottom: 2rem;
+}
+#numbers {
+  font-size: 10rem;
+  padding-left: 8rem;
+}
+.skills {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 4rem;
+  padding: 2rem;
+  /* border:solid; */
+}
+.skills ul {
+  list-style-type: none;
+}
+.list-box {
+  border: 1px solid;
+  padding: 4rem;
+  /* background-color: #B69BE8; */
+  border-radius: 3%;
+}
+#icons {
+  font-size: 5rem;
+  color: blue;
+}
+.lists {
+  margin-top: 2px;
+  padding-left: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.listsb {
+  margin-top: 2px;
+  padding-right: 2px;
+  /* padding-left:2px; */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.experience {
+  background-color: #e5e5e5;
+}
+.contact-section {
+  margin-top: 2rem;
+  /* background-image: url(../../../Downloads/25a58e06-6b04-49b1-8f77-9abf7c825d46.jpg); */
+}
+.connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-top: 2rem; */
+  column-gap: 5rem;
+  /* border: solid; */
+  padding: 3rem;
+}
+#connect-form {
+  padding: 8px;
+}
+footer {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #b69be7;
+  padding: 2rem;
+}
+.contact-form {
+  border: solid;
+  padding: 15px;
+  padding-right: 150px;
+}
+.contact-form p {
+  font-size: 20px;
+  color: #b69be7;
+}
+.label {
+  font-size: 15px;
+}
+.contact-input {
+  padding: 5px 60px 5px 3px;
+  /* border-color: transparent; */
+}
+#message {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+.contact-section button {
+  padding: 10px;
+  border-radius: 15%;
+  background-color: #b69be7;
+}
+/* .contact-input :hover{
+  border: none;
+ } */
+/* #hero-image{ 40px
+position: relative;
+ } */
+/* #project-box{
+    display: flex; */
+
+/* .sub-projects{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    padding:5rem; */
+
+/* .projects div{
+display: flex;
+} 
+#project-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding-right: 40rem;
+    /* align-items: center;
+    justify-content: space-between */
+
+/* #numbers {
+    font-size: 5rem
+}
+.mini-projects{ */
+/* display: flex;
+    flex-direction: column;
+} */
