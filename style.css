@@ -11,6 +11,7 @@ body {
 }
 .container1 {
   position: relative;
+  background-color: #E5E5E5;
 }
 nav {
   position: absolute;
@@ -38,6 +39,10 @@ nav {
   column-gap: 2rem;
   height: fit-content;
 }
+.container2{
+  background-color: #E5E5E5;
+  /* margin-top: -8rem; */
+}
 /* .about-me{
   background: #b99fc4;
 
@@ -50,6 +55,9 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
     rgba(229, 229, 229, 1) 0%,
     rgba(204, 193, 217, 1) 50%
   );
+  /* margin-left: 20px;
+  margin-right:30px;
+  border: solid; */
 }
 .home {
   display: grid;
