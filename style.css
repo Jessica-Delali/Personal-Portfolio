@@ -11,7 +11,7 @@ body {
 }
 .container1 {
   position: relative;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 nav {
   position: absolute;
@@ -39,8 +39,8 @@ nav {
   column-gap: 2rem;
   height: fit-content;
 }
-.container2{
-  background-color: #E5E5E5;
+.container2 {
+  background-color: #e5e5e5;
   /* margin-top: -8rem; */
 }
 /* .about-me{
@@ -81,6 +81,7 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   flex-direction: column;
   margin-left: 8rem;
   margin-top: 2rem;
+  padding: 15px;
 }
 .welcome h1 {
   color: purple;
@@ -103,24 +104,40 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   cursor: pointer;
   color: white;
 }
-.projects {
-  margin-top: 4rem;
-  background-color: #e5e5e5;
-  padding-top: 2rem;
+/* .projects{
+   border: solid red;
+  /* padding-bottom: -4rem; */
+/* margin-bottom: 100rem; */
+*/ .project-down {
+  margin-top: 3rem;
 }
 .sub-projects {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 4rem;
+  padding: 6rem;
+  margin-top: -4rem;
+  margin-bottom: 12rem;
+  /* border: solid; */
 }
 .project-mini {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
+  /* border: solid; */
 }
 #numbers {
   font-size: 10rem;
   padding-left: 8rem;
+  color: #800080;
+}
+#project-box {
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #7439e2;
 }
 .skills {
   margin-top: 2rem;
@@ -138,14 +155,13 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   list-style-type: none;
 }
 .list-box {
-  border: 1px solid;
+  border: 1px solid plum;
   padding: 4rem;
   /* background-color: #B69BE8; */
-  border-radius: 3%;
+  border-radius: 4%;
 }
 #icons {
   font-size: 5rem;
-  color: blue;
 }
 .lists {
   margin-top: 2px;
@@ -160,13 +176,12 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   text-transform: uppercase;
   font-weight: bold;
 }
-.experience {
-  background-color: #e5e5e5;
-}
-.contact-section {
-  margin-top: 2rem;
-  /* background-image: url(../../../Downloads/25a58e06-6b04-49b1-8f77-9abf7c825d46.jpg); */
-}
+/* .contact-section {
+  border: solid;
+} */
+/* margin-top: 2rem; */
+/* background-image: url(../../../Downloads/25a58e06-6b04-49b1-8f77-9abf7c825d46.jpg); */
+
 .connect {
   display: flex;
   flex-direction: row;
@@ -176,35 +191,35 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   /* border: solid; */
   padding: 3rem;
 }
+.talk {
+  padding: 8rem;
+  padding-right: 4rem;
+}
 #connect-form {
   padding: 8px;
 }
-footer {
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #b69be7;
-  padding: 2rem;
-}
 .contact-form {
-  border: solid;
+  border:  2px solid rgb(163, 79, 163);
   padding: 15px;
-  padding-right: 150px;
+  padding-right: 250px;
+  border-radius: 3%;
+  /* background-color: gray */
 }
 .contact-form p {
   font-size: 20px;
-  color: #b69be7;
+  color: #3800A9;
 }
 .label {
   font-size: 15px;
 }
 .contact-input {
-  padding: 5px 60px 5px 3px;
+  padding: 5px 260px 5px 3px;
   /* border-color: transparent; */
 }
 #message {
   padding-top: 5px;
   padding-left: 10px;
-  padding-right: 60px;
+  padding-right: 260px;
   padding-bottom: 100px;
 }
 .contact-section button {
