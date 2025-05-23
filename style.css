@@ -120,7 +120,7 @@ background: linear-gradient(90deg, rgba(148, 106, 212, 1) 0%, rgba(204, 193, 217
   grid-template-rows: 1fr 1fr 1fr;
   padding: 6rem;
   margin-top: -4rem;
-  margin-bottom: 12rem;
+  /* margin-bottom: 12rem; */
   /* border: solid; */
 }
 .project-mini {
