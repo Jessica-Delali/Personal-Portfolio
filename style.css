@@ -95,7 +95,7 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   width: 20%;
   padding: 20px;
   border-radius: 3rem;
-  background-color: gainsboro;
+  background-color: #b69be7;
   font-size: 14px;
   transition: background-color 0.5s ease;
 }
@@ -104,6 +104,10 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   cursor: pointer;
   color: white;
 }
+/* .projects{
+   background: #946ad4;
+background: linear-gradient(90deg, rgba(148, 106, 212, 1) 0%, rgba(204, 193, 217, 1) 50%);;
+} */
 /* .projects{
    border: solid red;
   /* padding-bottom: -4rem; */
@@ -141,7 +145,7 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
 }
 .skills {
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .skill-list {
   display: flex;
@@ -159,6 +163,7 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   padding: 4rem;
   /* background-color: #B69BE8; */
   border-radius: 4%;
+  box-shadow: 0 2px 8px rgb(163, 79, 163);
 }
 #icons {
   font-size: 5rem;
@@ -181,7 +186,15 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
 } */
 /* margin-top: 2rem; */
 /* background-image: url(../../../Downloads/25a58e06-6b04-49b1-8f77-9abf7c825d46.jpg); */
-
+.contact-section {
+   background: #e5e5e5;
+  background: linear-gradient(
+    90deg,
+    rgba(229, 229, 229, 1) 0%,
+    rgba(204, 193, 217, 1) 50%
+  );
+  
+}
 .connect {
   display: flex;
   flex-direction: row;
@@ -199,15 +212,16 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   padding: 8px;
 }
 .contact-form {
-  border:  2px solid rgb(163, 79, 163);
+  /* border: 2px solid rgb(163, 79, 163); */
   padding: 15px;
   padding-right: 250px;
   border-radius: 3%;
+  box-shadow: 0px 2px 8px rgb(163, 79, 163);
   /* background-color: gray */
 }
 .contact-form p {
   font-size: 20px;
-  color: #3800A9;
+  color: #3800a9;
 }
 .label {
   font-size: 15px;
@@ -226,6 +240,40 @@ background: linear-gradient(90deg, rgba(185, 159, 196, 1) 0%, rgba(87, 199, 133,
   padding: 10px;
   border-radius: 15%;
   background-color: #b69be7;
+}
+
+.work-experience{
+  max-width: 900px;
+  border-radius: 9px;
+  box-shadow: 0 2px 8px plum;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 10rem;
+}
+.job-section{
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 4rem;
+}
+.company{
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.line{
+  width: 3px;
+  background-color: #800080;
+  margin: 0 20px;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+}
+#experience{
+  margin-bottom: 4rem;
+}
+#date{
+  font-size: 13px;
 }
 /* .contact-input :hover{
   border: none;
